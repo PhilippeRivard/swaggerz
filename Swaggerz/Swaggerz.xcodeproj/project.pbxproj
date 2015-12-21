@@ -14,6 +14,8 @@
 		0C4A99941C287C0400DCD6AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C4A99931C287C0400DCD6AD /* Images.xcassets */; };
 		0C4A99971C287C0400DCD6AD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C4A99951C287C0400DCD6AD /* LaunchScreen.xib */; };
 		0C4A99A31C287C0400DCD6AD /* SwaggerzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4A99A21C287C0400DCD6AD /* SwaggerzTests.swift */; };
+		0C4A99AD1C287E8600DCD6AD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4A99AC1C287E8600DCD6AD /* User.swift */; };
+		0C4A99B01C28820C00DCD6AD /* GameFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4A99AF1C28820C00DCD6AD /* GameFlow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		0C4A999C1C287C0400DCD6AD /* SwaggerzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwaggerzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C4A99A11C287C0400DCD6AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C4A99A21C287C0400DCD6AD /* SwaggerzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwaggerzTests.swift; sourceTree = "<group>"; };
+		0C4A99AC1C287E8600DCD6AD /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = User/User.swift; sourceTree = "<group>"; };
+		0C4A99AF1C28820C00DCD6AD /* GameFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameFlow.swift; path = Game/GameFlow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,11 +83,13 @@
 		0C4A99871C287C0300DCD6AD /* Swaggerz */ = {
 			isa = PBXGroup;
 			children = (
+				0C4A99B11C28821600DCD6AD /* Game */,
 				0C4A998A1C287C0300DCD6AD /* AppDelegate.swift */,
 				0C4A998C1C287C0300DCD6AD /* FirstViewController.swift */,
 				0C4A998E1C287C0300DCD6AD /* SecondViewController.swift */,
 				0C4A99901C287C0400DCD6AD /* Main.storyboard */,
 				0C4A99931C287C0400DCD6AD /* Images.xcassets */,
+				0C4A99AE1C28816C00DCD6AD /* Users */,
 				0C4A99951C287C0400DCD6AD /* LaunchScreen.xib */,
 				0C4A99881C287C0300DCD6AD /* Supporting Files */,
 			);
@@ -113,6 +119,22 @@
 				0C4A99A11C287C0400DCD6AD /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0C4A99AE1C28816C00DCD6AD /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				0C4A99AC1C287E8600DCD6AD /* User.swift */,
+			);
+			name = Users;
+			sourceTree = "<group>";
+		};
+		0C4A99B11C28821600DCD6AD /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				0C4A99AF1C28820C00DCD6AD /* GameFlow.swift */,
+			);
+			name = Game;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,8 +237,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C4A99AD1C287E8600DCD6AD /* User.swift in Sources */,
 				0C4A998F1C287C0300DCD6AD /* SecondViewController.swift in Sources */,
 				0C4A998B1C287C0300DCD6AD /* AppDelegate.swift in Sources */,
+				0C4A99B01C28820C00DCD6AD /* GameFlow.swift in Sources */,
 				0C4A998D1C287C0300DCD6AD /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +437,7 @@
 				0C4A99A81C287C0400DCD6AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C4A99A91C287C0400DCD6AD /* Build configuration list for PBXNativeTarget "SwaggerzTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +446,7 @@
 				0C4A99AB1C287C0400DCD6AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
