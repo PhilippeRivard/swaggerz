@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		0C4A998B1C287C0300DCD6AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4A998A1C287C0300DCD6AD /* AppDelegate.swift */; };
 		0C4A998D1C287C0300DCD6AD /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4A998C1C287C0300DCD6AD /* FirstViewController.swift */; };
-		0C4A998F1C287C0300DCD6AD /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4A998E1C287C0300DCD6AD /* SecondViewController.swift */; };
 		0C4A99921C287C0400DCD6AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C4A99901C287C0400DCD6AD /* Main.storyboard */; };
 		0C4A99941C287C0400DCD6AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C4A99931C287C0400DCD6AD /* Images.xcassets */; };
 		0C4A99971C287C0400DCD6AD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C4A99951C287C0400DCD6AD /* LaunchScreen.xib */; };
 		0C4A99A31C287C0400DCD6AD /* SwaggerzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4A99A21C287C0400DCD6AD /* SwaggerzTests.swift */; };
 		0C4A99AD1C287E8600DCD6AD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4A99AC1C287E8600DCD6AD /* User.swift */; };
 		0C4A99B01C28820C00DCD6AD /* GameFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4A99AF1C28820C00DCD6AD /* GameFlow.swift */; };
+		64F83B901C44346700232FCC /* Universities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F83B8F1C44346700232FCC /* Universities.swift */; };
+		64F83B921C44375900232FCC /* UniversityList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F83B911C44375900232FCC /* UniversityList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +34,6 @@
 		0C4A99891C287C0300DCD6AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C4A998A1C287C0300DCD6AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0C4A998C1C287C0300DCD6AD /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		0C4A998E1C287C0300DCD6AD /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		0C4A99911C287C0400DCD6AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0C4A99931C287C0400DCD6AD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0C4A99961C287C0400DCD6AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -42,6 +42,8 @@
 		0C4A99A21C287C0400DCD6AD /* SwaggerzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwaggerzTests.swift; sourceTree = "<group>"; };
 		0C4A99AC1C287E8600DCD6AD /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = User/User.swift; sourceTree = "<group>"; };
 		0C4A99AF1C28820C00DCD6AD /* GameFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameFlow.swift; path = Game/GameFlow.swift; sourceTree = "<group>"; };
+		64F83B8F1C44346700232FCC /* Universities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Universities.swift; sourceTree = "<group>"; };
+		64F83B911C44375900232FCC /* UniversityList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniversityList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,12 +88,13 @@
 				0C4A99B11C28821600DCD6AD /* Game */,
 				0C4A998A1C287C0300DCD6AD /* AppDelegate.swift */,
 				0C4A998C1C287C0300DCD6AD /* FirstViewController.swift */,
-				0C4A998E1C287C0300DCD6AD /* SecondViewController.swift */,
 				0C4A99901C287C0400DCD6AD /* Main.storyboard */,
 				0C4A99931C287C0400DCD6AD /* Images.xcassets */,
 				0C4A99AE1C28816C00DCD6AD /* Users */,
 				0C4A99951C287C0400DCD6AD /* LaunchScreen.xib */,
 				0C4A99881C287C0300DCD6AD /* Supporting Files */,
+				64F83B8F1C44346700232FCC /* Universities.swift */,
+				64F83B911C44375900232FCC /* UniversityList.swift */,
 			);
 			path = Swaggerz;
 			sourceTree = "<group>";
@@ -181,6 +184,8 @@
 		0C4A997D1C287C0300DCD6AD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Swaggerz Light";
 				TargetAttributes = {
@@ -237,9 +242,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64F83B901C44346700232FCC /* Universities.swift in Sources */,
 				0C4A99AD1C287E8600DCD6AD /* User.swift in Sources */,
-				0C4A998F1C287C0300DCD6AD /* SecondViewController.swift in Sources */,
 				0C4A998B1C287C0300DCD6AD /* AppDelegate.swift in Sources */,
+				64F83B921C44375900232FCC /* UniversityList.swift in Sources */,
 				0C4A99B01C28820C00DCD6AD /* GameFlow.swift in Sources */,
 				0C4A998D1C287C0300DCD6AD /* FirstViewController.swift in Sources */,
 			);

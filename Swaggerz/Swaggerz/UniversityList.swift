@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+class UniversityList {
+    private var uniList: [Universities]
+    
+    init(uni: Universities) {
+        self.uniList.append(uni)
+    }
+}

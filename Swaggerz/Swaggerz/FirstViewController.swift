@@ -11,13 +11,14 @@ import UIKit
 class FirstViewController: UIViewController {
 
     
+    @IBOutlet weak var searchBar: UISearchBar!
     
+    @IBOutlet weak var scrollView: UIScrollView!
     
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {

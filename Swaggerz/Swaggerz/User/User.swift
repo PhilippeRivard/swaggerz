@@ -15,7 +15,7 @@ public class User: NSObject {
     private var uniYear: integer_t
     
     
-    init(userName: String, schoolName: String, var uniYear: integer_t){
+    init(userName: String, schoolName: String, uniYear: integer_t){
         self.userName=userName
         self.schoolName=schoolName
         self.uniYear=uniYear
